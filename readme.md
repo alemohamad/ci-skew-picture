@@ -4,7 +4,8 @@
 
 ## About this helper
 
-This CodeIgniter's helper transforms pictures.  
+This CodeIgniter's helper transforms the picture according to points,
+depending on the parameters given for the horizontal and the vertical lines.  
 
 Its usage is recommended for CodeIgniter 2 or greater.
 
@@ -22,5 +23,9 @@ $corners = array(
 
 skewPicture("demo-init.png", "demo-final.png", $corners);
 ```
+
+![Initial picture](http://alemohamad.com/github/skew/initial.png)
+
+![Final picture](http://alemohamad.com/github/skew/final.png)
 
 ![Ale Mohamad](http://alemohamad.com/github/logo2012am.png)
